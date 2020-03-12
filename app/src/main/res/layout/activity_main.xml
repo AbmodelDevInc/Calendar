@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E91E63"
     android:scrollbars="horizontal|vertical"
     tools:context=".MainActivity">
 
@@ -25,6 +26,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="28dp"
+        android:background="#9CFFFFFF"
         android:ems="10"
         android:hint="yy"
         android:inputType="number"
@@ -36,6 +38,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Recordatorios"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -46,18 +51,21 @@
         android:id="@+id/Recordatorio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="136dp"
+        android:layout_marginTop="80dp"
+        android:background="#9CFFFFFF"
         android:ems="10"
         android:hint="recordatorio"
         android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:layout_editor_absoluteX="90dp" />
+        tools:layout_editor_absoluteX="91dp" />
 
     <EditText
         android:id="@+id/time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="92dp"
+        android:background="#9CFFFFFF"
         android:ems="10"
         android:hint="tiempo"
         android:inputType="number"
@@ -69,6 +77,7 @@
         android:layout_width="46dp"
         android:layout_height="42dp"
         android:layout_marginTop="28dp"
+        android:background="#9CFFFFFF"
         android:ems="10"
         android:hint="dd"
         android:inputType="datetime"
@@ -79,10 +88,11 @@
         android:id="@+id/textView2"
         android:layout_width="69dp"
         android:layout_height="26dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="20dp"
+        android:background="#9CFFFFFF"
         android:text="Fecha"
         app:layout_constraintTop_toBottomOf="@+id/Recordatorio"
-        tools:layout_editor_absoluteX="93dp" />
+        tools:layout_editor_absoluteX="90dp" />
 
     <EditText
         android:id="@+id/month"
@@ -91,6 +101,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
         android:layout_marginTop="28dp"
+        android:background="#9CFFFFFF"
         android:ems="10"
         android:hint="mm"
         android:inputType="number"
@@ -113,9 +124,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:background="#FFFFFF"
         android:hint="Guardar"
         android:onClick="BottonSave"
         app:layout_constraintTop_toBottomOf="@+id/time"
         tools:layout_editor_absoluteX="152dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="#FFFFFF"
+        android:hint="Fecha"
+        app:layout_constraintTop_toBottomOf="@+id/day"
+        tools:layout_editor_absoluteX="149dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
