@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="56dp"
+        android:layout_height="18dp"
+        android:text="Martes"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="54dp"
+        android:layout_height="17dp"
+        android:text="Miercoles"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="54dp"
+        android:layout_height="17dp"
+        android:text="Jueves"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="54dp"
+        android:layout_height="17dp"
+        android:text="Sabado"
+        tools:layout_editor_absoluteX="344dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="54dp"
+        android:layout_height="17dp"
+        android:text="Viernes"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="99dp"
+        android:layout_height="25dp"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <TextView
+        android:layout_width="56dp"
+        android:layout_height="18dp"
+        android:text="Domingo"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        tools:layout_editor_absoluteX="178dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/textView13"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/textView33"
+        tools:layout_editor_absoluteX="13dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/textView11"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/textView23"
+        tools:layout_editor_absoluteX="178dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        tools:layout_editor_absoluteX="13dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/textView30"
+        tools:layout_editor_absoluteX="178dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        tools:layout_editor_absoluteX="13dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        tools:layout_editor_absoluteX="288dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        tools:layout_editor_absoluteX="13dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/textView13"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        tools:layout_editor_absoluteX="178dp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/textView32"
+        tools:layout_editor_absoluteX="288dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/textView11"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/textView13"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        tools:layout_editor_absoluteX="288dp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/textView11"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        tools:layout_editor_absoluteX="288dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/textView11"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/textView13"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/textView11"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/textView13"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="343dp" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="178dp"
+        android:layout_height="48dp"
+        android:text="Calendario"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="13dp" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="56dp"
+        android:layout_height="18dp"
+        android:text="Lunes"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
